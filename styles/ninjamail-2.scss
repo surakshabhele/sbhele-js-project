@@ -1,0 +1,1133 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Raleway:wght@500;700;800;900&display=swap");
+
+.ninja-mail-page-2 {
+  background: #ffffff;
+
+  .btn {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.05px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .btn-primary {
+    background-color: #4ba87d;
+    color: #ffffff;
+  }
+
+  .btn-secodory {
+    background: #ffffff;
+    border: 3px solid #4ba87d;
+    color: #4ba87d;
+  }
+  .btn-ter {
+    color: #4ba87d;
+    background: #ffffff;
+  }
+  .btn-quat {
+    max-width: 221px;
+    background: #4ba87d;
+  }
+  .ninja-mail-page-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .header {
+    // padding: 28px 100px 33px 100px;
+    padding: 28px 0 33px 0;
+    display: flex;
+    justify-content: space-around;
+
+    .logo {
+      display: flex;
+    }
+    .links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      max-width: 680px;
+      width: 100%;
+      ul.menu-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+
+        li {
+          margin: 0;
+          padding: 0;
+
+          border-bottom: solid 5px #4ba87d;
+          margin-right: 22px;
+
+          a {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 20px;
+            /* identical to box height, or 118% */
+
+            letter-spacing: 1.275px;
+
+            color: #000000;
+            text-decoration: none;
+            display: inline-block;
+            padding-bottom: 6px;
+          }
+        }
+      }
+
+      .sign-up-link {
+        margin-left: 15px;
+        a {
+          background-color: #4ba87d;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 17px;
+          line-height: 20px;
+          /* identical to box height, or 118% */
+
+          text-align: center;
+          letter-spacing: 1.275px;
+
+          color: #ffffff;
+          padding: 10px 20px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      .logo .logo-image {
+        width: 238px;
+      }
+      .links ul.menu-links li {
+        margin-right: 11px;
+        a {
+          font-size: 11px;
+          line-height: 13px;
+        }
+      }
+
+      .links .sign-up-link {
+        margin-left: 5px;
+        margin-right: 16px;
+        a {
+          font-size: 11px;
+          line-height: 13px;
+          letter-spacing: 0.825px;
+          padding: 6px 13.5px;
+        }
+      }
+    }
+    // @media screen and (max-width: 605px) {
+    //   // padding: 8px 0 14px 0;
+    //   // justify-content: space-between;
+    //   .logo .logo-image {
+    //     width: 168.24px;
+    //   }
+    // }
+    @media screen and (max-width: 680px) {
+      padding: 8px 0 14px 0;
+      justify-content: space-between;
+      .logo .logo-image {
+        width: 168.24px;
+      }
+      .links ul.menu-links {
+        display: none;
+      }
+      .links .sign-up-link {
+        margin-right: 13px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .hero-section {
+    margin: 0 auto;
+    max-width: 1088px;
+    background-image: url("/assets/ninjamail-girl.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    min-height: 383px;
+    padding-bottom: 50px;
+    // display: flex;
+    // align-items: center;
+    .create-email-para {
+      max-width: 489px;
+      width: 100%;
+      h1 {
+        margin-top: 22px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 59px;
+        line-height: 71px;
+        /* or 120% */
+
+        color: #000000;
+      }
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        /* or 137% */
+
+        color: #000000;
+        margin-top: 23px;
+        margin-bottom: 35px;
+      }
+
+      .try-now-btn {
+        display: flex;
+        gap: 45px;
+        .btn {
+          flex-grow: 1;
+          padding: 20px 0;
+        }
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      max-width: 711px;
+      min-height: 250px;
+      background-size: 445px 250px;
+
+      .create-email-para {
+        max-width: 315px;
+        h1 {
+          font-size: 38px;
+          line-height: 46px;
+          margin-top: 14px;
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          margin-top: 17px;
+          margin-bottom: 25px;
+        }
+
+        .try-now-btn {
+          .btn {
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.65px;
+            padding: 13px 0;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 471px) {
+      //   background-size: 300px 169px;
+      background-size: contain;
+      background-position: 0 60px;
+      padding-bottom: 20px;
+      .create-email-para {
+        min-height: 324.22px;
+        max-width: unset;
+        width: unset;
+        justify-content: space-between;
+        flex-direction: column;
+        /* align-content: space-evenly; */
+        display: flex;
+        padding: 0px 3px;
+
+        h1 {
+          max-width: 284px;
+          font-size: 36px;
+          margin-bottom: calc((98 / 320) * 100vw);
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 16px;
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .ninjamail-customer-img-wrapper {
+    // top: -48.5423583984375px;
+    background-image: url(/assets/ninjamail-customer.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 944px;
+    min-height: 531px;
+    background-size: cover;
+    margin-top: 86px;
+    // margin-bottom: 98px;
+    // background-size: cover;
+    @media screen and (max-width: 991px) {
+      max-width: 616px;
+      min-height: 347px;
+      margin: 0 auto;
+      background-size: contain;
+    }
+    @media screen and (max-width: 441px) {
+      max-width: 304px;
+      min-height: 171px;
+      background-size: contain;
+      margin: 0 auto;
+      // margin: 0px 7px;
+    }
+    .ninjamail-customer-para {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        padding: 163px 0px 61px 0px;
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 80px;
+        color: #ffffff;
+        @media screen and (max-width: 991px) {
+          font-size: 38px;
+          line-height: 51px;
+          padding: 54px 0x 40px 0px;
+        }
+        @media screen and (max-width: 600px) {
+          font-size: 22px;
+          line-height: 29px;
+          padding: 50px 0px 20px 0px;
+        }
+      }
+      .learn-how-button {
+        .btn-ter {
+          padding: 20px 32px;
+          border: none;
+
+          @media screen and (max-width: 768px) {
+            font-size: 13px;
+            line-height: 15px;
+          }
+          @media screen and (max-width: 320px) {
+            font-size: 6px;
+            line-height: 7px;
+          }
+
+          @media screen and (max-width: 768px) {
+            max-width: 132px;
+            padding: 13px 24px;
+          }
+          @media screen and (max-width: 320px) {
+            max-width: Width 65px;
+            padding: 6px 13px;
+          }
+        }
+      }
+    }
+  }
+
+  .menu-wrapper {
+    background-image: url(/assets/greenbackground.png);
+    display: flex;
+    justify-content: center;
+    gap: 47px;
+    margin: 0 auto;
+    margin-top: 98px;
+    .first-img {
+      max-width: 320px;
+      // background: #ffffff;
+      p {
+        // max-width: 251px;
+        padding: 24px 39px 4px 30px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        background: #FFFFFF;
+      }
+      h1 {
+        padding: 0px 39px 20px 30px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4ba87d;
+        background: #FFFFFF;
+      }
+    }
+    .second-img {
+      margin-top: 81px;
+      max-width: 320px;
+      background: #ffffff;
+      p {
+        padding: 22px 30px 13px 30px;
+        margin: 0px;
+        // max-width: 259px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        background: #FFFFFF;
+      }
+      h1 {
+        padding: 0px 38px 22px 30px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        color: #4ba87d;
+        background: #FFFFFF;
+      }
+    }
+
+    .menu-text {
+      margin-top: 136px;
+
+      h1 {
+        max-width: 365px;
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 48px;
+        color: #000000;
+      }
+      p {
+        padding-top: 24px;
+        max-width: 322px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        color: #000000;
+      }
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .menu-wrapper {
+      margin-top: 0px;
+      // padding-top: 32px;
+      gap: 30px;
+      .first-img {
+
+        max-width: 209px;
+        margin-left: 34px;
+        img {
+          max-width: 209px;
+        }
+
+        p {
+          // max-width: 164px;
+          font-size: 12px;
+          line-height: 16px;
+          background-size: contain;
+          padding: 17px 25px 1px 20px;
+          
+        }
+
+        h1 {
+          margin: 0px;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 0px 0px 13px 20px;
+        }
+      }
+      .second-img {
+        background: #ffffff;
+        max-width: 208.99px;
+
+        img {
+          max-width: 208.99px;
+          margin-top: 53px;
+        }
+        p {
+          // max-width: 170px;
+          font-size: 12px;
+          line-height: 16px;
+          padding: 16px 19px 1px 20px;
+        }
+        h1 {
+          padding: 0px 25px 14px 20px;
+          margin: 0px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+      .menu-text {
+        padding-right: 30px;
+
+        h1 {
+          max-width: 232px;
+          font-size: 28px;
+          line-height: 31px;
+        }
+        p {
+          max-width: 203px;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 698px) {
+    .menu-wrapper {
+      display: flex;
+      flex-direction: column;
+      padding-top: 17px;
+      .first-img {
+        // padding: 0px 0px 0px 9px;
+        margin-left: 9px;
+        max-width: 208.99px;
+        img {
+          max-width: 208.99px;
+          max-height: 275px;
+          margin: 0 auto;
+          // background-size: contain;
+        }
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          max-width: 164px;
+          padding: 17px 25px 0px 29px;
+        }
+        h1 {
+          margin: 0px;
+          font-size: 12px;
+          line-height: 14px;
+          padding: 0px 0px 13px 30px;
+        }
+      }
+      .second-img {
+        padding: 0px 9px 0px 0px;
+        margin-top: 0px;
+        align-self: flex-end;
+        img {
+          max-width: 208.99px;
+          max-height: 275px;
+          margin: 0 auto;
+          // background-size: contain;
+        }
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          padding: 17px 25px 1px 20px;
+          // max-width: 164px;
+        }
+        h1 {
+          margin: 0px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+      .menu-text {
+        margin-top: 0px;
+
+        h1 {
+          max-width: 232px;
+          font-size: 28px;
+          line-height: 31px;
+          padding: 0px 34px 0px 36px;
+          padding-right: 0px;
+        }
+        p {
+          padding: 17px 62px 47px 37px;
+          padding-right: 0px;
+          max-width: 203px;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+  .casestudy-wrapper {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    .casestudy {
+      max-width: 342px;
+      min-height: 239px;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      h1 {
+        padding: 0px 0px 0px 27px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 40px;
+        color: #ffffff;
+      }
+      h2 {
+        padding: 1px 0px 7px 27px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .casestudy-wrapper {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      display: flex;
+      gap: 19px;
+      align-items: center;
+      justify-content: center;
+      .casestudy {
+        max-width: 223px;
+        min-height: 157px;
+        h1 {
+          padding: 0px 0px 1px 17px;
+          font-size: 22px;
+          line-height: 26px;
+        }
+        h2 {
+          padding: 0px 0px 4px 17px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 441px) {
+    .casestudy-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .casestudy {
+        max-width: 223px;
+        min-height: 157px;
+        h1 {
+          padding: 0px 0px 1px 17px;
+          font-size: 22px;
+          line-height: 26px;
+        }
+        h2 {
+          padding: 0px 0px 4px 17px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+
+  .email-reg-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      max-width: 904px;
+      margin: 0px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 48px;
+      text-align: center;
+      color: #000000;
+    }
+    .e-mail-wrap {
+      // padding-top: 15px;
+
+      display: flex;
+      gap: 27px;
+
+      .e-mail {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        // form {
+        input {
+          padding: 19px 0px 21px 25px;
+          min-width: 420px;
+          border: 1px solid #9f9f9f;
+          border-radius: 5px;
+          background: #ffffff;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 21px;
+          line-height: 25px;
+          letter-spacing: 1.05px;
+          color: #000000;
+        }
+        // }
+        span {
+          padding: 20px 0px 75px 30px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 21px;
+          line-height: 25px;
+          letter-spacing: 1.05px;
+          color: #4ba87d;
+        }
+      }
+      .join-our-list-btn {
+        // margin-top: 29px;
+        padding-top: 15px;
+        .btn-quat {
+          padding: 20px 29px;
+          border: none;
+
+          a {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 1.05px;
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    h1 {
+      padding: 0px 0px 39px 0px;
+      max-width: 944px;
+      margin: 0px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 48px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    .email-reg-para {
+      h2 {
+        max-width: 591px;
+        font-size: 28px;
+        line-height: 36px;
+      }
+      .e-mail-wrap {
+        .e-mail {
+          padding-top: 4px;
+          input {
+            padding: 12px 0px 15px 16px;
+            min-width: 275px;
+            font-size: 13px;
+            line-height: 15px;
+          }
+          // }
+          span {
+            padding: 13px 0px 50px 0px;
+            font-size: 13px;
+            line-height: 15px;
+          }
+        }
+        .join-our-list-btn {
+          padding-top: 4px;
+          .btn-quat {
+            padding: 13px 21px 14px 21px;
+            a {
+              font-size: 13px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+      h1 {
+        padding-bottom: 20px;
+        font-size: 28px;
+        line-height: 36px;
+      }
+    }
+  }
+  @media screen and (max-width: 441px) {
+    .email-reg-para {
+      h2 {
+        margin-top: 25px;
+        padding-bottom: 5px;
+        max-width: 239px;
+        font-size: 26px;
+        line-height: 36px;
+      }
+      .e-mail-wrap {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        .e-mail {
+          input {
+            padding: 13px 0px 14px 14px;
+            min-width: 223px;
+            font-size: 13px;
+            line-height: 15px;
+          }
+
+          span {
+            padding: 6px 0px 7px 0px;
+            font-size: 12px;
+            line-height: 14px;
+          }
+        }
+        .join-our-list-btn {
+          // padding-top: 7px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .btn-quat {
+            a {
+              font-size: 13px;
+              line-height: 15px;
+            }
+          }
+        }
+      }
+      h1 {
+        padding: 54px 0px 20px 0px;
+        font-size: 26px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .brands {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  @media screen and (max-width: 991px) {
+    .brands {
+      padding-bottom: 95px;
+
+      .logo1 {
+        order: 3;
+        // img {
+        max-width: 104px;
+        // }
+      }
+      .logo2 {
+        order: 1;
+        max-width: 55px;
+      }
+      .logo3 {
+        order: 5;
+        max-width: 94px;
+        display: flex;
+        justify-content: center;
+      }
+      .logo4 {
+        order: 4;
+        max-width: 92px;
+      }
+      .logo5 {
+        order: 2;
+        max-width: 91px;
+      }
+    }
+  }
+  @media screen and (max-width: 441px) {
+    .brands {
+      // max-width: 281px;
+      padding: 0px 19px 58px 20px;
+      flex-wrap: wrap;
+
+      .logo1 {
+        order: 3;
+        // img {
+        max-width: 104px;
+        // }
+        padding: 29px 25px 26px 21px;
+      }
+      .logo2 {
+        order: 1;
+        max-width: 55px;
+        padding: 0px 50px 0px 45px;
+      }
+      .logo3 {
+        order: 5;
+        max-width: 94px;
+        display: flex;
+        justify-content: center;
+        padding: 0px 95px 0px 92px;
+      }
+      .logo4 {
+        order: 4;
+        max-width: 92px;
+        padding: 41px 23px 29px 0px;
+      }
+      .logo5 {
+        order: 2;
+        max-width: 91px;
+        padding: 0px 23px 0px 0px;
+      }
+    }
+  }
+
+  .upper-footer {
+    background: #4ba87d;
+    min-height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 80px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .white-button {
+      padding-top: 19px;
+      button {
+        padding: 20px 32px;
+        border: none;
+        a {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 21px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 1.05px;
+          color: #4ba87d;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .lower-footer {
+    padding-top: 72px;
+    // min-height: 366px;
+    // align-items: center;
+    display: flex;
+    justify-content: space-around;
+    @media screen and (max-width: 749px) {
+      display: flex;
+      flex-direction: column;
+      padding-left: 17px;
+    }
+    .mail-logo {
+      // padding-top: 72px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 31px;
+    }
+    .footer-content-wrapper {
+      display: flex;
+
+      .footer-content-wrapper1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .footer-content1 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        .footer-content2 {
+          padding-right: 60px;
+          padding-bottom: 50px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        @media screen and (max-width: 613px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .footer-content-wrapper2 {
+        display: flex;
+
+        // justify-content: center;
+        .footer-content3 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        .footer-content4 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        @media screen and (max-width: 613px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .footer-end {
+    // border-top: solid 0.5px red;
+    display: flex;
+    flex-direction: column;
+    .border {
+      border-top: solid 2px #dbdbdb;
+      // max-width: 1088px;
+      margin: 0px 100px 0px 100px;
+
+      @media screen and (max-width: 991px) {
+        //  max-width: 700px;
+        border-top: solid 1px #dbdbdb;
+        margin: 0px 28px 0px 28px;
+      }
+      @media screen and (max-width: 350px) {
+        max-width: 286px;
+        margin: 0px 17px 0px 17px;
+      }
+    }
+    // @media screen and (max-width: 1440px) {
+
+    //  }
+
+    .ninjamail-end {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 39px 0px 48px 0px;
+      @media screen and (max-width: 510px) {
+        display: flex;
+        flex-direction: column;
+        padding-left: 17px;
+      }
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        margin: 0px;
+        @media screen and (max-width: 991px) {
+          font-size: 9px;
+          line-height: 11px;
+        }
+      }
+      h2 {
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        @media screen and (max-width: 991px) {
+          font-size: 9px;
+          line-height: 11px;
+        }
+        @media screen and (max-width: 510px) {
+          padding: 14px 0px 9px 0px;
+        }
+      }
+      h3 {
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        @media screen and (max-width: 991px) {
+          font-size: 9px;
+          line-height: 11px;
+        }
+      }
+    }
+  }
+}

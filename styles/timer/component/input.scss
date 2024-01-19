@@ -1,0 +1,23 @@
+.time-input {
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 109px;
+  max-height: 59px;
+  .start {
+    text-align: center;
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+    color: #000000;
+  }
+  .time-text {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+  }
+}

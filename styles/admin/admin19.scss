@@ -1,0 +1,104 @@
+.admin19-wrapper {
+  background: #f4f6f8;
+  min-height: 100vh;
+  .admin19-page {
+    // display: flex;
+    // flex-direction: column;
+    header {
+      display: flex;
+      .sidebar-btn-section {
+        background-color: #fff;
+        max-width: 300px;
+        width: 100%;
+        .SchoolAccountinnerbox {
+          display: flex;
+          background: #452b4f;
+          justify-content: space-around;
+          align-items: center;
+          border: 0;
+          margin: 0 auto;
+          margin-top: 53px;
+          .wallet {
+            padding: 23px 0px 23px 26px;
+          }
+          .SchoolAccount {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            color: #ffffff;
+            padding: 23px 35px 23px 18px;
+          }
+          .forword {
+            padding: 30px 19px 29px 18px;
+          }
+        }
+      }
+    }
+    .heading-section {
+      flex-grow: 1;
+      display: flex;
+      padding: 56px 48px;
+      justify-content: space-between;
+      .heading {
+        h2 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          color: #535356;
+          margin: 0;
+        }
+        p {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #898989;
+          margin: 0;
+          margin-top: 9px;
+        }
+      }
+      .Searchbox-wrapper {
+        .Searchbox {
+          display: flex;
+          justify-content: flex-end;
+          .Searchiconclass {
+            padding: 22px 0px 23px 26px;
+            background: #ffffff;
+          }
+          form {
+            background: #ffffff;
+            padding: 20px 0px 20px 19px;
+            input {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              display: flex;
+              align-items: center;
+              color: #898989;
+              border: 0px;
+              outline: 0px;
+            }
+          }
+        }
+      }
+    }
+    .section-start{
+     .main-content{
+        .main content{
+            
+        }
+     }   
+    }
+  }
+}

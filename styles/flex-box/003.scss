@@ -1,0 +1,119 @@
+body {
+  margin: 0px;
+}
+.app-wrapper {
+  display: flex;
+  width: 1920px;
+  height: 1080px;
+
+  .FlexBox {
+    flex-grow: 1;
+    display: flex;
+    background: #e5e5e5;
+    flex-direction: column;
+    .start {
+      padding: 33px 109px 37px 90px;
+      display: flex;
+      border-bottom: solid 3px black;
+      flex-direction: row;
+      .text1 {
+        font-size: 20px;
+        display: flex;
+        flex-grow: 1;
+      }
+      .text2 {
+        font-size: 20px;
+        justify-content: flex-end;
+        display: flex;
+        flex-grow: 1;
+      }
+    }
+    .box1 {
+      display: flex;
+      flex-direction: row;
+      .leftbox {
+        display: flex;
+        // flex-grow: 1;
+        // flex-basis: 30%;
+        flex-direction: column;
+        border-right: solid 3px black;
+        .text3 {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+
+          // display: flex;
+          padding: 90px 376px 75px 90px;
+        }
+        .img {
+          padding: 0px 90px 90px 90px;
+        }
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        .rightbox {
+          // flex-grow: 2;
+          display: inline;
+          // flex-basis: 70%;
+          .rightupper {
+            display: flex;
+            .gray {
+              display: flex;
+              flex-direction: column;
+              .text4 {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+
+                padding: 192px 69px 73px 75px;
+              }
+              .img3 {
+                padding: 0px 399px 88px 75px;
+              }
+            }
+            .img2 {
+              // display: flex;
+              padding: 88px 90px 88px 69px;
+            }
+          }
+        }
+        .rightbelow {
+          border-top: solid 3px black;
+          .text5 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 200px;
+            padding: 50px 369px 0px 62px;
+          }
+          .textbox {
+            display: flex;
+            .num1 {
+              font-weight: 400;
+              font-size: 36px;
+              padding: 0px 24px 92px 237px;
+            }
+
+            .text6 {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              padding: 0px 85px 90px 0px;
+            }
+            .num2 {
+              font-weight: 400;
+              font-size: 36px;
+              padding: 0px 24px 92px 0px;
+            }
+            .text7 {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              padding: 0px 90px 90px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

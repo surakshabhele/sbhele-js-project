@@ -1,0 +1,27 @@
+.login-form {
+  margin: 0 auto;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #264eca;
+  width: 864px;
+  height: 500px;
+  .user-name-label {
+    width: 200px;
+    min-height: 45px;
+  }
+  .password-label {
+    width: 200px;
+    height: 45px;
+  }
+  .submit-btn {
+    width: 100px;
+    font: normal 600 16px/20px "Montserrat";
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2148c0;
+  }
+}

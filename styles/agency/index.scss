@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Quicksand:wght@300;400;700&display=swap");
+.Header {
+  background: #f5f5f5;
+
+  .header-content {
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 68.11px;
+    .header-img {
+      padding-left: 100px;
+      padding-left: 267px;
+    }
+
+    .text1 {
+      display: flex;
+
+      .home {
+        a {
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 24px;
+          padding: 0px 50px 0px 267px;
+          color: black;
+        }
+      }
+      .about {
+        a {
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+
+          letter-spacing: 0.01em;
+          text-transform: capitalize;
+          color: black;
+          padding-right: 50px;
+        }
+      }
+
+      .sev {
+        a {
+          padding-right: 50px;
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+          text-transform: capitalize;
+          color: black;
+        }
+      }
+      .projects {
+        a {
+          padding-right: 317px;
+          font-family: "Quicksand";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: 0.01em;
+          text-transform: capitalize;
+          color: black;
+        }
+      }
+    }
+    .click {
+      // padding-left: 20px;
+      // padding-right: 150px;
+
+      .contact-us {
+        font-family: "Quicksand";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #377dff;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        border-radius: 40px;
+        border: solid 3px blue;
+
+        padding: 12px 50px 12px 50px;
+        // justify-content: center;
+        // align-items: center;
+        // min-width: 180px;
+      }
+    }
+  }
+  .text2 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    display: flex;
+    justify-content: center;
+
+    // padding: 0px 340.5px 24px 350px;
+  }
+  .text3 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+
+  .but1 {
+    display: flex;
+    justify-content: center;
+    button {
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: white;
+      // border-radius: 10px;
+      background-color: blue;
+
+      box-shadow: 0px 4px 8px rgba(55, 125, 255, 0.5);
+      border-radius: 24px;
+      padding: 12px 50px 12px 50px;
+    }
+  }
+  .inside-great-project {
+    // background-color: #ffffff;
+    background: #ffffff;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    width: fit-content;
+    // padding: 38.45px 671px 382px 243px;
+    // @media screen {
+    //   width: auto;
+    // }
+    // .staricon {
+    //   border-radius: 1px;
+    //   display: flex;
+    //   align-items: center;
+    //   padding: 17px 5px 0px 22px;
+    // }
+    .great-project {
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #1d1d1d;
+      opacity: 0.5;
+      padding: 20px 32px ;
+    }
+    .Done {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #1d1d1d;
+    }
+  }
+
+  .header-img2 {
+    padding-top: 111px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-us {
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #377dff;
+  }
+  .our-teammate {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+    letter-spacing: 0.003em;
+    color: #1d1d1d;
+  }
+  .teammate-img {
+  }
+  .blueball {
+    display: flex;
+    justify-content: center;
+  }
+}

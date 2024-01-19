@@ -1,0 +1,786 @@
+.admin18 {
+  // background: #e5e5e5;
+  display: flex;
+  .sidebar {
+    background: #ffffff;
+
+    // min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .SchoolAccountbox {
+      padding: 53px 0px 64px 0px;
+      .SchoolAccountinnerbox {
+        display: flex;
+        background: #452b4f;
+        justify-content: space-around;
+        align-items: center;
+        // padding: 23px 19.33px 23px 26px;
+        .wallet {
+          padding: 23px 0px 23px 26px;
+        }
+        .SchoolAccount {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+          color: #ffffff;
+          padding: 23px 35px 23px 18px;
+        }
+        .forword {
+          padding: 30px 19px 29px 18px;
+        }
+      }
+    }
+    .homeouterbox {
+      border: 1px solid #452b4f;
+      padding: 21px 122px 22px 18px;
+      display: flex;
+
+      .hometext {
+        padding-left: 18px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+      }
+    }
+
+    .Activitybox {
+      display: flex;
+      padding: 21px 0px 30px 0px;
+
+      .chart {
+      }
+      input {
+        border: 0px;
+        padding-left: 18px;
+      }
+    }
+
+    .Accountsbox {
+      display: flex;
+      padding: 31px 0px 43px 0px;
+      border-top: 0.5px solid #898989;
+
+      .profile {
+      }
+      input {
+        border: 0px;
+        padding-left: 23px;
+      }
+    }
+    .Historybox {
+      display: flex;
+      .timecircle {
+      }
+      input {
+        border: 0px;
+        padding-left: 18px;
+      }
+    }
+    .spms {
+      display: flex;
+      justify-content: flex-end;
+      padding: 483px 155px 5px 38px;
+      .spmstext {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #535356;
+        padding-left: 6px;
+      }
+    }
+    .digitalmang {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #898989;
+      padding-bottom: 46px;
+      // padding: 0px 36px 46px 36px ;
+    }
+  }
+
+  .middlepage {
+    display: flex;
+    background: #e5e5e5;
+
+    .mupper {
+      // display: flex;
+      .getstarted {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #535356;
+        padding: 56px 0px 9px 48px;
+      }
+      .reportoverview {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #898989;
+        padding: 0px 0px 71px 48px;
+      }
+    }
+
+    .mlower {
+      padding: 0px 48px 48px 48px;
+      min-width: 499px;
+      min-height: 792px;
+      .AllActivitypage {
+        background: #ffffff;
+
+        .contentbox1 {
+          display: flex;
+          justify-content: space-between;
+
+          .left1 {
+            .AllActivity {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+
+              padding: 24px 0px 13px 24px;
+            }
+            .Yesterday {
+              padding: 0px 0px 12px 24px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right1 {
+            padding: 34px 29px 51px 0px;
+          }
+        }
+        .contentbox2 {
+          display: flex;
+          padding-left: 24px;
+
+          .left2 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right2 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #0aaf60;
+
+              padding: 13px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 31px 0px;
+            }
+          }
+        }
+        .contentbox3 {
+          display: flex;
+          padding: 0px 24px 0px 24px;
+          // border-bottom: 0.5px solid #898989;
+
+          .left3 {
+            .Shopper {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+              padding: 0px 0px 4px 14px;
+            }
+            .Addedbalance {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+              padding: 0px 0px 28px 14px;
+            }
+          }
+          .right3 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #0aaf60;
+              padding: 0px 24px 7px 215px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+              padding: 0px 24px 28px 230px;
+            }
+          }
+        }
+        hr {
+          width: 451px;
+        }
+        .March23 {
+          // border-top: 0.5px solid #898989;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #898989;
+          padding: 24px 0px 12px 24px;
+        }
+        .contentbox4 {
+          display: flex;
+          padding-left: 24px;
+
+          .left4 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right4 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: hsl(353, 76%, 51%);
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 27px 0px;
+            }
+          }
+        }
+        .contentbox5 {
+          display: flex;
+          padding-left: 24px;
+
+          .left5 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right5 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #0aaf60;
+
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 27px 0px;
+            }
+          }
+        }
+        .contentbox6 {
+          display: flex;
+          padding-left: 24px;
+
+          .left6 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right6 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #e12237;
+
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 27px 0px;
+            }
+          }
+        }
+        .contentbox7 {
+          display: flex;
+          padding-left: 24px;
+
+          .left7 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right7 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #e12237;
+
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 27px 0px;
+            }
+          }
+        }
+        .contentbox8 {
+          display: flex;
+          padding-left: 24px;
+          // border-bottom: 0.5px solid #898989;
+
+          .left8 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 27px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right8 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #0aaf60;
+
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 32px 0px;
+            }
+          }
+        }
+        hr {
+          width: 451px;
+        }
+        .March22 {
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          color: #898989;
+          padding: 24px 0px 12px 24px;
+        }
+        .contentbox9 {
+          display: flex;
+          padding-left: 24px;
+
+          .left9 {
+            .Bursar1 {
+              padding: 0px 230px 4px 14px;
+
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 14px;
+              line-height: 21px;
+              color: #535356;
+            }
+            .Addedbalance {
+              padding: 0px 222px 0px 14px;
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              color: #898989;
+            }
+          }
+          .right9 {
+            .Tshs1 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #e12237;
+
+              padding: 0px 24px 7px 0px;
+            }
+            .Tshs2 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+              text-align: right;
+              color: #898989;
+
+              padding: 0px 24px 50px 0px;
+            }
+          }
+        }
+      }
+    }
+    .rightsideofpage {
+      .Searchbox {
+        padding: 56px 48px 64px 0px;
+        display: flex;
+
+        justify-content: flex-end;
+        .Searchiconclass {
+          padding: 22px 0px 23px 26px;
+          background: #ffffff;
+        }
+
+        form {
+          background: #ffffff;
+          padding: 20px 0px 20px 19px;
+          input {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            outline: 0px;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #898989;
+            border: 0px;
+          }
+        }
+      }
+      .AnalyticReportspage {
+        // background: #ffffff;
+        .graph {
+          min-width: 497px;
+          background: #ffffff;
+          padding: 32px 48px 4px 24px;
+          .graph1 {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            color: #535356;
+            padding: 24px 0px 32px 24px;
+          }
+          .graph2 {
+            .Total {
+              display: flex;
+              justify-content: space-around;
+              .TotalIncome {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #898989;
+              }
+              .TotalOutcome {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #898989;
+              }
+              .TotalSave {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+                color: #898989;
+              }
+            }
+            .No {
+              display: flex;
+              justify-content: space-around;
+              padding: 0px 24px 24px 24px;
+              .No1 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+
+                color: #0aaf60;
+              }
+              .No2 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                color: #535356;
+              }
+              .No3 {
+                font-family: "Poppins";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                text-align: right;
+
+                color: #0aaf60;
+              }
+            }
+          }
+        }
+        .leftend {
+          background: #ffffff;
+          margin: 48px 48px 48px 0px;
+          .Balance {
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            color: #535356;
+            padding: 24px 0px 24px 24px;
+          }
+          .Debitbox {
+            display: flex;
+            .Debit {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              color: #898989;
+              padding: 0px 204px 12px 24px;
+            }
+            .DebitNo {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              text-align: right;
+
+              color: #898989;
+              padding: 24px 24px 4px 0px;
+            }
+          }
+          .Creditbox {
+            display: flex;
+            .Credit {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              color: #898989;
+              padding: 0px 242px 45px 24px;
+            }
+            .CreditNo {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              text-align: right;
+
+              color: #898989;
+              padding: 0px 24px 53px 0px;
+            }
+          }
+          hr {
+            width: 451px;
+          }
+          .ViewAllAccount {
+            display: flex;
+            justify-content: center;
+            // border-top: 0.5px solid #898989;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            text-decoration-line: underline;
+
+            color: #452b4f;
+            padding: 23px 0px 24px 0px;
+          }
+        }
+      }
+    }
+  }
+}

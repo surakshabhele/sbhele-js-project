@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Roboto&family=Work+Sans:wght@400;500&display=swap");
+@import "./component/input.scss";
+@import "./component/button.scss";
+.timer-app {
+  background-color: #f9f9f9;
+  max-width: 431px;
+  max-height: 313px;
+  margin: 0 auto;
+  .timer-heading {
+    text-align: center;
+  }
+  .input-list {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .button-list {
+    padding-top: 40px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,595 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Work+Sans:wght@400;500&display=swap");
+
+.ninjamail-page {
+  background: #ffffff;
+  .upper-header {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    // padding: 28px 100px 33px 100px;
+    padding: 28px 0px 32px 0px;
+    .left-upper-header {
+      display: flex;
+      .mail-logo {
+        .logo {
+          // max-width: 100px;
+
+          @media screen and (max-width: 768px) {
+            max-width: 153px;
+            // max-width: 120px;
+          }
+          @media screen and (max-width: 416px) {
+            // max-width: 168px;
+            max-width: 100px;
+            // max-height: 40px;
+          }
+        }
+      }
+    }
+
+    .right-upper-header {
+      display: flex;
+      span {
+        // margin-bottom: 6px;
+        margin-left: 33px;
+        a {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 17px;
+          line-height: 20px;
+          letter-spacing: 1.275px;
+          color: #000000;
+          text-decoration: none;
+          padding-bottom: 6px;
+          border-bottom: 5px solid #4ba87d;
+          @media screen and (max-width: 954px) {
+            font-size: 11px;
+            line-height: 13px;
+          }
+        }
+
+        @media screen and (max-width: 760px) {
+          display: none;
+        }
+      }
+
+      .green-button {
+        padding-left: 24px;
+        button {
+          background: #4ba87d;
+          padding: 10px 20px;
+          border: none;
+
+          a {
+            text-decoration: none;
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 17px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 1.275px;
+
+            color: #ffffff;
+
+            @media screen and (max-width: 866px) {
+              font-size: 11px;
+              line-height: 13px;
+            }
+          }
+        }
+        // @media screen and (max-width: 866px) {
+        //   // max-width: 110px;
+        //   padding: 6px 13px;
+        // }
+      }
+    }
+  }
+  .lower-header {
+    max-width: 1088px;
+    margin: 66px 0px 86px 0px;
+    // display: flex;
+    // flex-grow: 1;
+    // justify-content: center;
+    // align-items: center;
+    // justify-content: space-around;
+    background-repeat: no-repeat;
+    background-size: contain;
+    // background-position-x: 70%;
+    background-position: right;
+    margin: 0 auto;
+    .lower-header-content {
+      max-width: 489px;
+      // padding-left: 176px;
+
+      position: relative;
+      z-index: 1;
+      left: 70px;
+     
+      @media screen and (max-width: 768px) {
+        max-width: 315px;
+      }
+      @media screen and (max-width: 400px) {
+        max-width: 284px;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        left: 5px;
+        // align-items: flex-start;
+        // justify-content: flex-start;
+      }
+
+      h1 {
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 59px;
+        line-height: 71px;
+        color: #000000;
+        @media screen and (max-width: 768px) {
+          font-size: 38px;
+          line-height: 46px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        @media screen and (max-width: 320px) {
+          font-size: 36px;
+          line-height: 46px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      p {
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        color: #000000;
+        padding: 23px 0px 35px 0px;
+        @media screen and (max-width: 768px) {
+          font-size: 12px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        @media screen and (max-width: 320px) {
+          font-size: 14px;
+          line-height: 16px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+        }
+      }
+      .button-wrapper {
+        display: flex;
+        .green-button {
+          padding-right: 45px;
+          button {
+            background: #4ba87d;
+            padding: 20px 47px;
+            border: none;
+            // min-height: 65px;
+            // min-width: 200px;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+
+            a {
+              font-family: "Raleway";
+              font-style: normal;
+              font-weight: 900;
+              font-size: 21px;
+              line-height: 25px;
+              text-align: center;
+              letter-spacing: 1.05px;
+              text-decoration: none;
+              color: #ffffff;
+              @media screen and (max-width: 768px) {
+                font-size: 13px;
+                line-height: 15px;
+              }
+            }
+            // @media screen and (max-width: 768px) {
+            //   max-width: 143px;
+            //   max-height: 40px;
+            //   padding: 13px 32px;
+            // }
+          }
+        }
+        .white-button {
+          button {
+            border: 3px solid #4ba87d;
+            padding: 20px 28px;
+            // max-height: 65px;
+            // max-width: 200px;
+            a {
+              font-family: "Raleway";
+              font-style: normal;
+              font-weight: 900;
+              font-size: 21px;
+              line-height: 25px;
+              text-align: center;
+              letter-spacing: 2.1px;
+              color: #4ba87d;
+              text-decoration: none;
+              @media screen and (max-width: 768px) {
+                font-size: 13px;
+                line-height: 15px;
+
+                // text-align: center;
+              }
+            }
+            // @media screen and (max-width: 768px) {
+            //   max-width: 143px;
+            //   max-height: 40px;
+            //   padding: 13px 27px;
+            // }
+          }
+        }
+      }
+    }
+    background-image: url(/assets/ninjamail-girl.png);
+  }
+
+  .ninjamail-customer-img-wrapper {
+    // margin: 81px 0px 49px 0px;
+    padding: 81px 0px 49px 0px;
+    // z-index: 0;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin: 0 auto;
+    max-width: 944px;
+    .ninjamail-customer-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+      min-height: 628px;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 80px;
+        color: #ffffff;
+
+        @media screen and (max-width: 768px) {
+          font-size: 38px;
+          line-height: 51px;
+        }
+        @media screen and (max-width: 320px) {
+          font-size: 22px;
+          line-height: 29px;
+        }
+      }
+      .white-button {
+        padding-top: 61px;
+        button {
+          padding: 20px 32px;
+          border: none;
+          a {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 21px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 1.05px;
+            color: #4ba87d;
+            text-decoration: none;
+            @media screen and (max-width: 768px) {
+              font-size: 13px;
+              line-height: 15px;
+            }
+            @media screen and (max-width: 320px) {
+              font-size: 6px;
+              line-height: 7px;
+            }
+          }
+          @media screen and (max-width: 768px) {
+            max-width: 132px;
+          }
+          @media screen and (max-width: 320px) {
+            max-width: Width 65px;
+          }
+        }
+      }
+      background-image: url(/assets/ninjamail-customer.png);
+    }
+  }
+
+  .menu-wrapper {
+    // background-image: url(/assets/greenbackground.png);
+    display: flex;
+    .menu-imgs {
+      .first-img {
+        max-width: 320px;
+        background: #ffffff;
+        span {
+          max-width: 251px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+        }
+      }
+      .second-img {
+        max-width: 320px;
+        background: #ffffff;
+        span {
+          max-width: 259px;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000000;
+        }
+      }
+    }
+    .menu-text {
+      h1 {
+        max-width: 365px;
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 48px;
+        color: #000000;
+      }
+      p {
+        max-width: 322px;
+        margin: 0px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 26px;
+        color: #000000;
+      }
+    }
+  }
+
+  .upper-footer {
+    background: #4ba87d;
+    min-height: 366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 80px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .white-button {
+      padding-top: 19px;
+      button {
+        padding: 20px 32px;
+        border: none;
+        a {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 21px;
+          line-height: 25px;
+          text-align: center;
+          letter-spacing: 1.05px;
+          color: #4ba87d;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .lower-footer {
+    padding-top: 72px;
+    // min-height: 366px;
+    // align-items: center;
+    display: flex;
+    justify-content: space-around;
+    @media screen and (max-width: 749px) {
+      display: flex;
+      flex-direction: column;
+      padding-left: 17px;
+    }
+    .mail-logo {
+      // padding-top: 72px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 31px;
+    }
+    .footer-content-wrapper {
+      display: flex;
+
+      .footer-content-wrapper1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .footer-content1 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        .footer-content2 {
+          padding-right: 60px;
+          padding-bottom: 50px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        @media screen and (max-width: 613px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      .footer-content-wrapper2 {
+        display: flex;
+
+        // justify-content: center;
+        .footer-content3 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        .footer-content4 {
+          padding-right: 60px;
+          display: flex;
+          flex-direction: column;
+          span {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 22px;
+            color: #000000;
+            padding: 10px 0px;
+            @media screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 14px;
+            }
+          }
+        }
+        @media screen and (max-width: 613px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .border {
+    border-top: solid 0.5px #dbdbdb;
+    max-width: 1088px;
+    margin: 0px 176px 0x 176px;
+    @media screen and (max-width: 900px) {
+      max-width: 711px;
+      margin: 0px 28px 0px 28px;
+    }
+    @media screen and (max-width: 350px) {
+      max-width: 286px;
+      margin: 0px 17px 0px 17px;
+    }
+  }
+
+  .footer-end {
+    // border-top: solid 0.5px red;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 39px 0px 48px 0px;
+    @media screen and (max-width: 510px) {
+      display: flex;
+      flex-direction: column;
+      padding-left: 17px;
+    }
+    h1 {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #000000;
+      margin: 0px;
+      @media screen and (max-width: 768px) {
+        font-size: 9px;
+        line-height: 11px;
+      }
+    }
+    h2 {
+      margin: 0px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #000000;
+      @media screen and (max-width: 768px) {
+        font-size: 9px;
+        line-height: 11px;
+      }
+      @media screen and (max-width: 510px) {
+        padding: 14px 0px 9px 0px;
+      }
+    }
+    h3 {
+      margin: 0px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 18px;
+      color: #000000;
+      @media screen and (max-width: 768px) {
+        font-size: 9px;
+        line-height: 11px;
+      }
+    }
+  }
+}

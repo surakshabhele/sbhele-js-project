@@ -1,0 +1,167 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.reponsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.flexbox-08-page {
+  // max-width: 1440px;
+  // height: 100vh;
+  margin: 0 auto;
+  background-color: #eeecea;
+  position: relative;
+  // width: 1920px;
+  // height: 1080px;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    padding-top: 2.0625rem;
+    padding-bottom: 2.0625rem;
+    padding-right: 5.625rem;
+    padding-left: 5.625rem;
+    justify-content: space-between;
+    border-bottom: solid 3px black;
+    .logo-text {
+      p {
+        margin: 0;
+        font-family: "Neue Haas Unica W1G";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 100%;
+        /* identical to box height, or 20px */
+
+        color: #000000;
+      }
+    }
+  }
+
+  .content-wrapper {
+    display: flex;
+    // height: 100%;
+    .left-side {
+      display: flex;
+      border-right: solid 3px black;
+      // .img1 {
+      //   display: flex;
+      // }
+    }
+    .right-side {
+      //   background-color: yellow;
+      // display: inline-block;
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      .rightupper {
+        display: flex;
+        // flex-direction: column;
+        border-bottom: solid 3px black;
+        .text1 {
+          border-right: solid 3px black;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .span {
+            font-family: "Neue Haas Unica W1G";
+            font-style: normal;
+            font-weight: 400;
+
+            font-size: calc(5vw);
+            line-height: 100%;
+            color: #000000;
+            white-space: nowrap;
+            transform: rotate(-90deg);
+            // padding: 81.5px 117px 35.5px 102px;
+            // writing-mode: vertical-rl;
+            // transform: rotate(-180deg);
+            display: block;
+          }
+        }
+        .rightcorner {
+          // border-left: solid 3px black;
+          // flex-direction: column;
+          // flex-grow: 1;
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+          .paragraph1 {
+            display: flex;
+            justify-content: flex-end;
+            @media screen and (max-width: 1439px) {
+              justify-content: center;
+            }
+            .p {
+              margin: 0;
+              max-width: 497px;
+              width: 100%;
+              font-family: "Neue Haas Unica W1G";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 120%;
+              // padding: 69px 101px 46px 347px;
+              color: #000000;
+              padding-top: 69px;
+              padding-bottom: 46px;
+              padding-right: 101px;
+              @media screen and (max-width: 1439px) {
+                padding-right: unset;
+              }
+            }
+          }
+          // .img2 {
+          //   display: flex;
+          // }
+        }
+      }
+      .rightdown {
+        // border-top: solid 3px black;
+        display: flex;
+        flex-grow: 1;
+
+        .num {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 36px;
+          line-height: 110%;
+          // padding: 157px 24px 176px 120px;
+          color: #000000;
+        }
+        .title {
+          font-family: "Neue Haas Unica W1G";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 110%;
+          // padding: 155px 125px 174px 0px;
+          color: #000000;
+          max-width: 345px;
+          margin-left: 24px;
+        }
+        .side-left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-grow: 1;
+        }
+        .side-right {
+          flex-grow: 1;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

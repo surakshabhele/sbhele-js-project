@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Work+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Work+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Work+Sans:wght@400;500&display=swap");
+.travello-page-wrapper {
+  .responsive-image {
+    width: 100%;
+    height: auto;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 134px;
+    background: #2094e6;
+
+    padding: 8px 24px 8px 24px;
+    border: 0;
+    a {
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .vector-icon {
+      padding: 0px 0px 0px 10px;
+    }
+  }
+  .header-wrapper {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    .hero-background {
+      background: url(../public/assets/travello.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      z-index: -1;
+    }
+
+    .header {
+      // opacity: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 120px;
+      // border-bottom: solid 0.5px rgba(0, 0, 0, 0.3);
+
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      .logo {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 100%;
+        padding-left: px;
+        color: #ffffff;
+      }
+      .menu-wrapper {
+        display: flex;
+        .menu-items {
+          display: flex;
+          align-items: center;
+
+          h1 {
+            margin: 0px;
+
+            a {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 100%;
+
+              color: #ffffff;
+              padding-right: 50px;
+              text-decoration: none;
+            }
+          }
+        }
+        .btn-primary {
+          padding-left: 32px;
+
+          padding-right: 13px;
+        }
+      }
+    }
+    .hero-wrapper {
+      max-width: 592px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 169px;
+      margin-left: 120px;
+      padding-bottom: 136px;
+
+      .hero-section {
+        span {
+          font-family: "Playfair Display";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 60px;
+          line-height: 110%;
+
+          color: #ffffff;
+          margin-bottom: 24px;
+          display: block;
+        }
+        p {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          margin: 0px;
+          color: #ffffff;
+          margin-bottom: 24px;
+        }
+        .button-normal {
+        }
+      }
+    }
+  }
+
+  .secondbox {
+    display: flex;
+    background: #ffffff;
+
+    .secondboxleft {
+      // background: green;
+      // flex-grow: 1;
+      display: flex;
+      max-width: 632px;
+      width: 100%;
+      position: relative;
+      padding: 138px 0px 0px 128px;
+      .img1 {
+        position: relative;
+        max-width: 557px;
+        width: 100%;
+        height: auto;
+      }
+      .img2 {
+        position: absolute;
+        bottom: calc(-9.166666666666667 * 1vw);
+        right: calc(-6.944444444444444 * 1vw);
+        // max-width: 9.166cv;
+        max-width: calc(26.805555555555568 * 1vw);
+        width: 100%;
+        // bottom: 128px;
+      }
+    }
+    .secondboxright {
+      // background: yellow;
+      // flex-grow: 1;
+      max-width: 486px;
+      width: 100%;
+      padding-left: 145px;
+      padding-right: 122px;
+      padding-top: 170px;
+      .aboutus {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 10px;
+        color: #2094e6;
+      }
+      span {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 60px;
+
+        color: #121212;
+      }
+      p {
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        margin: 0px;
+        color: #333333;
+        padding: 20px 0px 20px 0px;
+      }
+      .btn-normal {
+      }
+    }
+  }
+  .Packageinfo-wrapper {
+    padding: 128px 120px 128px 100px;
+    margin-top: 128px;
+
+    .features {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      .Packageinfo {
+        max-height: 233px;
+
+        max-width: 250px;
+
+        background: #ffffff;
+        box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+        padding: 44px 0px 30px 27px;
+        margin-left: 20px;
+        h1 {
+          margin: 0px;
+          font-family: "Playfair Display";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          color: #121212;
+          padding-top: 14px;
+          padding-bottom: 15px;
+        }
+        .info {
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #333333;
+        }
+      }
+    }
+  }
+  .about-us-wrapper {
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    span {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: #2094e6;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    h1 {
+      margin: 0px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 60px;
+      color: #121212;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      padding: 10px 0px 64px 0px;
+    }
+  }
+  .country {
+    background: #ffffff;
+
+    // background: purple;
+    display: flex;
+
+    justify-content: space-evenly;
+    padding: 0px 100px 138px 119px;
+    .country-info {
+      // background: wheat;
+      background-repeat: no-repeat;
+      .countryinfo-wrapper {
+        display: flex;
+        justify-content: center;
+        // max-height: 400px;
+        // max-width: 387px;
+
+        .countryinfo {
+          max-width: 387px;
+          max-height: 400px;
+          width: 100%;
+          height: 100%;
+          margin-right: 20px;
+
+          h1 {
+            margin: 0px;
+            font-family: "Playfair Display";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            // margin-top: -146px;
+            padding-top: 254px;
+          }
+          .info {
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 15px 15px 27px 15px;
+          }
+        }
+      }
+    }
+  }
+  .reviewbox {
+    display: flex;
+    justify-content: space-around;
+    //  align-items: center;
+    padding: 0px 120px 138px 120px;
+    .customerReviews {
+      max-width: 486px;
+      // max-height: 386px;
+      margin-right: 50px;
+      span {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #2094e6;
+        padding: 10px 0px 20px 0px;
+      }
+      h1 {
+        margin: 0px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 60px;
+        color: #121212;
+      }
+      p {
+        margin: 0px;
+        font-family: "Work Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333333;
+        padding-bottom: 20px;
+      }
+      .all-reviews {
+      }
+    }
+    img {
+      // max-width: 578px;
+      // margin: 0px;
+    }
+  }
+  .upper-footer {
+    background-image: url(/assets/travello3.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    span {
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+
+      color: #2094e6;
+      padding: 128px 0px 10px 0px;
+    }
+    h1 {
+      margin: 0px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 60px;
+      color: #ffffff;
+    }
+    p {
+      margin: 0px;
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      text-align: center;
+
+      color: #ffffff;
+      padding: 29px 0px 30px 0px;
+    }
+    .get-started {
+      padding-bottom: 128px;
+    }
+  }
+  .lower-footer {
+    background: #0a0a0a;
+
+    display: flex;
+    flex-direction: column;
+    padding: 64px 183px 0px 183px;
+    .lower-footer-wrapper {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+      // padding: 64px 183px 55px 163px;
+      max-width: 1073px;
+      width: 100%;
+      
+      .learn-more-box {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 18px;
+          color: #ffffff;
+           padding-bottom: 25px;
+        }
+        p {
+
+         
+         
+          margin: 0px;
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 30px;
+          color: #ffffff;
+        }
+      }
+      .tickets-booking-box {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 18px;
+          color: #ffffff;
+            padding-bottom: 25px;
+        }
+        p {
+        
+          margin: 0px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 30px;
+          color: #ffffff;
+        }
+      }
+      .contact-us-box {
+        span {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 18px;
+          color: #ffffff;
+        }
+
+        .contact-no {
+          display: flex;
+          flex-direction: column;
+          padding: 31px 0px 0px 0px;
+          .hotel-reservation-section {
+            display: flex;
+
+            .hotel-reservation {
+              font-family: "Josefin Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+            .hotel-reservation-no {
+              font-family: "Josefin Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 14px;
+              color: #ffffff;
+              padding-left: 12px;
+            }
+          }
+          .ticket-office-section {
+            display: flex;
+            padding-top: 19px;
+            .ticket-office {
+              font-family: "Josefin Sans";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+            .ticket-office-no {
+              font-family: "Josefin Sans";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 14px;
+              color: #ffffff;
+              padding: 0px 0px 0px 24px;
+            }
+          }
+        }
+      }
+      .social-box {
+        display: flex;
+        flex-direction: column;
+        span {
+          font-family: "Josefin Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 18px;
+          color: #ffffff;
+          padding: 0px 0px 35px 0px;
+        }
+        .logo {
+          img {
+            padding-right: 25px;
+          }
+        }
+      }
+    }
+    // hr {
+    //   color: 1px solid #ffffff;
+    //   opacity: 0.15;
+    //   width: 1073px;
+    // }
+    .divider {
+      border-top: 1px solid #ffffff;
+      opacity: 0.15;
+       margin-top: 55px;
+    }
+    .travello {
+      padding: 30px 0px 64px 0px;
+      font-family: "Josefin Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}

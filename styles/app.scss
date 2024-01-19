@@ -1,0 +1,51 @@
+@font-face {
+    src: url("/fonts/Gilroy-Regular.ttf") format("trueType"),
+      url("/fonts/Chronicle Display Roman.otf") format("OpenType font format");
+    font-family: "Gilroy-Regular";
+    font-family: "Chronicle Display Roman";
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+@import './fonts.scss';
+@import "./flex-box/001.scss";
+@import "./flex-box/002-old.scss";
+@import "./flex-box/002-new.scss";
+@import "./flex-box/003.scss";
+@import "./flex-box/004.scss";
+@import "./flex-box/005.scss";
+@import "./flex-box/008.scss";
+@import "./flex-box/008-responsive.scss";
+@import "./flex-box/009.scss";
+@import "./flex-box/0010.scss";
+@import "./flex-box/0011.scss";
+@import "./flex-box/0012.scss";
+@import "./flex-box/0013.scss";
+@import "./flex-box/0014.scss";
+@import "./agency/index.scss";
+@import "./admin/admin.scss";
+@import "./admin/account.scss";
+@import "./admin/admin18.scss";
+@import "./admin/admin19.scss";
+
+// @import "./test/test-admin.scss";
+@import "./admin-spms/dashboard-account.scss";
+@import "./travello-travel-agency.scss";
+@import "./enviroment.scss";
+@import "./cowboy.scss";
+@import "./ninjamail.scss";
+@import "./ninjamail-2.scss";
+@import "./photography-event.scss";
+@import "./prabot.scss";
+
+@import "./slider/index.scss";
+@import "./timer/index.scss";
+@import "./mountainbeyond/index.scss";
+@import "./react-query/login-page.scss";
+// @import "./dark-mode.scss";
+
+@import "./react-query/login-page.scss";
+@import "./to-do";
+@import "./to-do/createtask.scss";
